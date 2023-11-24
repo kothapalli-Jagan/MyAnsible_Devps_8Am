@@ -5,4 +5,9 @@
   - name: i want to install webserver
     apt:
       name: apache2
+      state: absent
+      
+  - name: install git on ansible nodes
+    apt:
+      name: git
       state: present
