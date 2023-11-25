@@ -16,15 +16,15 @@
 
   - name: i want to install webserver RedHat
     dnf: 
-      name: httpd
+      name: "{{mywebpackonredhat}}"
       state: present
-    when: ansible_os_family =="{{mywebpackonredhat}}"
+    when: ansible_os_family =="RedHat"
 
   - name: i want start webserver on RedHat nodes
     service:
-       name: httpd
+       name: "{{mywebpackonredhat}}"
        state: started 
-    when: ansible_os_family =="{{mywebpackonredhat}}"
+    when: ansible_os_family =="RedHat"
 
 
     
