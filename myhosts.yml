@@ -19,6 +19,6 @@
 172.31.57.15
 
 [mywebservers:vars]
-variable: value
-mywebpackonubuntu: apache2222
-mywebpackonredhat: httpd
+variable= value
+mywebpackonubuntu= apache2222
+mywebpackonredhat= httpd
