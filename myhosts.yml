@@ -16,9 +16,5 @@
 172.31.27.14
 
 [myredhatservers]
-172.31.57.139
+172.31.8.139
 
-[mywebservers:vars]
-variable= value
-mywebpackonubuntu= apache
-mywebpackonredhat= httpd
