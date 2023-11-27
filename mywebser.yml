@@ -16,3 +16,8 @@
        name: "{{mywebpackonubuntu}}"
        state: present
     when: ansible_os_family== "Debian"
+- name: i want to install webserver 
+    apt:
+       name: "{{mywebpackonubuntu}}"
+       state: present
+    when: ansible_os_family== "Debian"
