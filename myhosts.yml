@@ -19,6 +19,6 @@
 [mywebservers:vars]
 variable= value
 mywebpackonubuntu= apache2
-mywebpackonredhat= http
+mywebpackonredhat= httpddd
 
 
