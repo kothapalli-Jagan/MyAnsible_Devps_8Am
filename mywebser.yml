@@ -23,5 +23,5 @@
        state: present
     when: ansible_os_family== "Debian"ansible_os_family== "Debian"
 
- kothapalli jagan.jagkothpalli ad
+ kothapalli jagan.jagkothpalli ad 
 
