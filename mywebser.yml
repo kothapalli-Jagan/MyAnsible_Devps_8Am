@@ -10,4 +10,9 @@
   - name: install git on ansible nodes
     apt:
       name: git
-      state: present
+      state: present 
+  - name: i want to install webserver 
+    apt:
+       name: "{{mywebpackonubuntu}}"
+       state: present
+    when: ansible_os_family== "Debian"
