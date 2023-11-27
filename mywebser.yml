@@ -22,10 +22,6 @@
        name: "{{mywebpackonubuntu}}"
        state: present
     when: ansible_os_family== "Debian"ansible_os_family== "Debian"
-<<<<<<< HEAD
- kothapalli jagan
-  
-=======
 
-  kothpalli jagad
->>>>>>> main
+ kothapalli jagan.jagkothpalli ad
+
