@@ -21,8 +21,6 @@
     apt:
        name: "{{mywebpackonubuntu}}"
        state: present
-    when: ansible_os_family== "Debian"ansible_os_family== "Debian"
-
- kothapalli jagan. kothpalli jagad
+    when: ansible_os_family== "Debian"ansible_os_family== "Debian
   
 
